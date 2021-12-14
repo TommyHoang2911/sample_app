@@ -1,0 +1,11 @@
+vi:
+  home:
+    title: "Ứng dụng Sample App"
+    introduce_html: '<p>Đây là trang home page <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a> của ứng dụng này.</p>'
+  help:
+    title: "Trợ giúp"
+    introduce_html: '<p>Xem các trợ giúp về Ruby on Rails Tutorial tại trang <a href="https://www.railstutorial.org/help">Rails Tutorial</a>. Xem hướng dẫn tạo website Sample App, <a href="https://www.railstutorial.org/book"><em>Ruby on Rails Tutorial</em> book</a>.</p>'
+  about:
+    title: "Về chúng tôi"
+    introduce_html: '<p><a href="https://www.railstutorial.org/"><em>Ruby on Rails Tutorial</em></a>, là một trong những giáo trình của <a href="https://www.learnenough.com/">Learn Enough</a>, bao gồm <a href="https://www.railstutorial.org/book"> sách</a> và <a href="https://screencasts.railstutorial.org/">loạt series video</a> dạy phát triển website bằng <a href="https://rubyonrails.org/">Ruby on Rails</a>.Trang web Sample App này là ứng dụng có trong series này.</p>'
+
