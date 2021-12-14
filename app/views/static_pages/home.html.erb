@@ -1,3 +1,6 @@
 <% provide :title, t(".name") %>
-<h1><%= t ".title" %></h1>
-<%= t ".introduce_html" %>
+<div class="center jumbotron">
+  <h1><%= t ".title" %></h1>
+  <%= t ".introduce_html" %>
+  <%= link_to t(".signup"), signup_path, class: "btn btn-lg btn-primary" %>
+</div>
