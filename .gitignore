@@ -27,4 +27,3 @@ yarn-debug.log*
 .framgia-ci-result.temp.yml
 .browserslistrc
 .Guardfile
-
