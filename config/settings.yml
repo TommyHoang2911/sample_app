@@ -1,4 +1,5 @@
 link:
+  default_ava: "https://secure.gravatar.com/avatar/"
   footer:
     news: "https://news.railstutorial.org/"
 pattern:
@@ -7,3 +8,5 @@ length:
   digit_6: 6
   digit_50: 50
   digit_255: 255
+user:
+  ava_size_default: 80
