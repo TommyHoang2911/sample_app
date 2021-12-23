@@ -1,4 +1,6 @@
 vi:
+  app_name: "Sample App"
+  base_title: "Ruby on Rails"
   gen_title: " | Ứng dụng Sample App"
   vietnamese: "Tiếng Việt"
   english: "Tiếng Anh"
@@ -7,6 +9,7 @@ vi:
       name: "Trang chủ"
       title: "Ứng dụng Sample App"
       introduce_html: "<p>Đây là trang home page <a href=\"https://www.railstutorial.org/\">Ruby on Rails Tutorial</a> của ứng dụng này.</p>"
+      signup: "Đăng ký ngay !"
     help:
       name: "Trợ giúp"
       title: "Trợ giúp"
@@ -15,3 +18,21 @@ vi:
       name: "Giới thiệu"
       title: "Về chúng tôi"
       introduce_html: "<p><a href=\"https://www.railstutorial.org/\"><em>Ruby on Rails Tutorial</em></a>, là một trong những giáo trình của <a href=\"https://www.learnenough.com/\">Learn Enough</a>, bao gồm <a href=\"https://www.railstutorial.org/book\"> sách</a> và <a href=\"https://screencasts.railstutorial.org/\">loạt series video</a> dạy phát triển website bằng <a href=\"https://rubyonrails.org/\">Ruby on Rails</a>.Trang web Sample App này là ứng dụng có trong series này.</p>"
+    contact:
+      name: "Liên hệ"
+      title: "Liên hệ"
+      introduce_html: "<p>Liên hệ những thắc mắc về ứng dụng Sample app tại <a href=\"https://www.railstutorial.org/contact\">đây</a>.</p>"
+  layouts:
+    header:
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+    footer:
+      about: "Về chúng tôi"
+      contact: "Liên hệ"
+      news: "Tin tức"
+      author_html: "<a href=\"https://www.railstutorial.org/\">Ruby on Rails Tutorial</a> by <a href=\"https://www.michaelhartl.com/\">Michael Hartl</a>"
+  users:
+    new:
+      signup: "Đăng ký"
+      description_html: "<p>Đây là trang đăng ký cho người mới.</p>"
