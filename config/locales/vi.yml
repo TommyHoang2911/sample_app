@@ -27,11 +27,23 @@ vi:
       home: "Trang chủ"
       help: "Trợ giúp"
       login: "Đăng nhập"
+      user: "Người dùng"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      setting: "Cài đặt"
+      logout: "Đăng xuất"
     footer:
       about: "Về chúng tôi"
       contact: "Liên hệ"
       news: "Tin tức"
       author_html: "<a href=\"https://www.railstutorial.org/\">Ruby on Rails Tutorial</a> by <a href=\"https://www.michaelhartl.com/\">Michael Hartl</a>"
+  sessions:
+    new:
+      field_email: "Email"
+      field_pass: "Mật khẩu"
+      login: "Đăng nhập"
+      signup: "Đăng ký ngay !"
+      new_user: "Bạn có muốn đăng ký?"
   shared:
     error_messages:
       form_contain: "Form đăng ký xuất hiện "
@@ -50,3 +62,4 @@ vi:
   error:
     user_not_found: "Không tìm thấy thông tin !"
     signup_failure: "Đăng ký không thành công !"
+    signin_failure: "Đăng nhập không thành công !"

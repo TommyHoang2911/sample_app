@@ -27,11 +27,23 @@ en:
       home: "Home"
       help: "Help"
       login: "Login"
+      user: "Users"
+      account: "Account"
+      profile: "Profile"
+      setting: "Settings"
+      logout: "Logout"
     footer:
       about: "About"
       contact: "Contact"
       news: "News"
       author_html: "<a href=\"https://www.railstutorial.org/\">Ruby on Rails Tutorial</a> by <a href=\"https://www.michaelhartl.com/\">Michael Hartl</a>"
+  sessions:
+    new:
+      field_email: "Email"
+      field_pass: "Password"
+      login: "Login"
+      signup: "Sign up now!"
+      new_user: "New user ?"
   shared:
     error_messages:
       form_contain: "The form contains "
@@ -50,3 +62,4 @@ en:
   error:
     user_not_found: "Not found user !"
     signup_failure: "Sign up unsuccessful !"
+    signin_failure: "Invalid email/password combination"
