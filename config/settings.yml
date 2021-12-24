@@ -1,11 +1,13 @@
 link:
   default_ava: "https://secure.gravatar.com/avatar/"
+  email_ava: "https://gravatar.com/emails"
   footer:
     news: "https://news.railstutorial.org/"
 pattern:
   valid_email: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
 length:
   digit_6: 6
+  digit_20: 20
   digit_50: 50
   digit_255: 255
 user:

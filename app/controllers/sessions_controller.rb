@@ -8,10 +8,10 @@ class SessionsController < ApplicationController
     if user&.authenticate(params[:session][:password])
       log_in user
       decide_remember user
-      redirect_to user
+      redirect_back_or user
     else
       flash.now[:danger] = t "error.signin_failure"
-      render "new"
+      render :new
     end
   end
 

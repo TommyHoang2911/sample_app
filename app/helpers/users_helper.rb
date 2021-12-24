@@ -5,4 +5,8 @@ module UsersHelper
     gravatar_url = "#{Settings.link.default_ava}#{gravatar_id}?s=#{size}"
     image_tag(gravatar_url, alt: user.name, class: "gravatar")
   end
+
+  def is_correct_user_admin? user
+    current_user.admin? && !current_user?(user)
+  end
 end
