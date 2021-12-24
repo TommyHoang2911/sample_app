@@ -44,6 +44,7 @@ vi:
       login: "Đăng nhập"
       signup: "Đăng ký ngay !"
       new_user: "Bạn có muốn đăng ký?"
+      notice_remember_me: "Lưu phiên đăng nhập của bạn"
   shared:
     error_messages:
       form_contain: "Form đăng ký xuất hiện "

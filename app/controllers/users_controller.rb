@@ -1,11 +1,8 @@
 class UsersController < ApplicationController
-  def show
-    @user = User.find_by id: params[:id]
-    return if @user
+  include SessionsHelper
+  before_action :load_user_by_params_id, only: %i(show)
 
-    flash[:danger] = t "error.user_not_found"
-    redirect_to signup_path
-  end
+  def show; end
 
   def new
     @user = User.new
@@ -24,8 +21,17 @@ class UsersController < ApplicationController
   end
 
   private
+
   def user_params
     params.require(:user)
           .permit(:name, :email, :password, :password_confirmation)
+  end
+
+  def load_user_by_params_id
+    @user = User.find_by id: params[:id]
+    return if @user
+
+    flash[:danger] = t "error.user_not_found"
+    redirect_to signup_path
   end
 end
