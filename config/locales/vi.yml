@@ -4,6 +4,7 @@ vi:
   gen_title: " | Ứng dụng Sample App"
   vietnamese: "Tiếng Việt"
   english: "Tiếng Anh"
+  account_activation: "Kích hoạt tài khoản"
   static_pages:
     home:
       name: "Trang chủ"
@@ -49,6 +50,11 @@ vi:
     error_messages:
       form_contain: "Form đăng ký xuất hiện "
       error: "lỗi"
+  user_mailer:
+    account_activation:
+      greeting: "Xin chào"
+      description_activate_html: "<p>Chào mừng đến với Sample App! Nhấp vào link bên dưới để kích hoạt tài khoản:</p>"
+      activate: "Kích hoạt"
   users:
     index:
       all_users: "Danh sách người dùng"
@@ -75,10 +81,15 @@ vi:
   notice:
     welcome: "Chào mừng đến với Sample App"
     please_log_in: "Vui lòng đăng nhập !"
+    please_check_email: "Vui lòng xác thực email để kích hoạt tài khoản."
     update_success: "Cập nhập thành công"
     delete_success: "Xóa thành công"
+    account_activated: "Tài khoản đã được kích hoạt!"
   error:
     user_not_found: "Không tìm thấy thông tin !"
     signup_failure: "Đăng ký không thành công !"
     signin_failure: "Đăng nhập không thành công !"
     delete_failed: "Xóa không thành công!"
+    unable_send_email: "Không gửi được email"
+    invalid_link_active: "Đường dẫn kích hoạt không hợp lệ!"
+    account_unactive: "Tài khoản chưa được kích hoạt. Vui lòng kiểm tra email."

@@ -4,6 +4,7 @@ en:
   gen_title: " | Ruby on Rails Tutorial Sample App"
   vietnamese: "Vietnamese"
   english: "English"
+  account_activation: "Account activation"
   static_pages:
     home:
       name: "Home"
@@ -43,12 +44,17 @@ en:
       field_pass: "Password"
       login: "Login"
       signup: "Sign up now!"
-      new_user: "New user ?"
+      new_user: "New user ? "
       notice_remember_me: "Remember me on this computer"
   shared:
     error_messages:
       form_contain: "The form contains "
       error: "error"
+  user_mailer:
+    account_activation:
+      greeting: "Hi"
+      description_activate_html: "<p>Welcome to the Sample App! Click on the link below to activate your account:</p>"
+      activate: "Activate"
   users:
     index:
       all_users: "All users"
@@ -75,10 +81,15 @@ en:
   notice:
     welcome: "Welcome to the Sample App"
     please_log_in: "Please log in !"
+    please_check_email: "Please check your email to activate your account."
     update_success: "Profile updated"
     delete_success: "Delete success"
+    account_activated: "Account activated!"
   error:
     user_not_found: "Not found user !"
     signup_failure: "Sign up unsuccessful !"
     signin_failure: "Invalid email/password combination"
     delete_failed: "Delete failed!"
+    unable_send_email: "Cannot send email"
+    invalid_link_active: "Invalid link!"
+    account_unactive: "Account not activated. Check your email for the activation link."
