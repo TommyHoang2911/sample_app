@@ -44,6 +44,7 @@ en:
       login: "Login"
       signup: "Sign up now!"
       new_user: "New user ?"
+      notice_remember_me: "Remember me on this computer"
   shared:
     error_messages:
       form_contain: "The form contains "
