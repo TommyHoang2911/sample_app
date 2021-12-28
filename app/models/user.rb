@@ -15,12 +15,14 @@ class User < ApplicationRecord
   has_secure_password
 
   validates :password,
-            length: {minimum: Settings.length.digit_6}
+            presence: true,
+            length: {minimum: Settings.length.digit_6},
+            allow_nil: true
 
   def self.digest string
     is_min_cost = ActiveModel::SecurePassword.min_cost
     cost = is_min_cost ? BCrypt::Engine::MIN_COST : BCrypt::Engine.cost
-    BCrypt::Password.create(string, cost: cost)
+    BCrypt::Password.create string, cost: cost
   end
 
   def self.new_token

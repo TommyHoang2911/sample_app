@@ -50,6 +50,8 @@ en:
       form_contain: "The form contains "
       error: "error"
   users:
+    index:
+      all_users: "All users"
     new:
       signup: "Sign up"
       description_html: "<p>This will be a signup page for new users.</p>"
@@ -58,9 +60,25 @@ en:
       field_email: "Email"
       field_pass: "Password"
       field_confirm: "Confirmation"
+    edit:
+      edit_user: "Edit user"
+      update_profile: "Update your profile"
+      field_name: "Name"
+      field_email: "Email"
+      field_pass: "Password"
+      field_confirm: "Confirmation"
+      save_change: "Save change"
+      ava_change: "Change avatar"
+    user:
+      delete: "Delete"
+      is_sure: "Are you sure ?"
   notice:
     welcome: "Welcome to the Sample App"
+    please_log_in: "Please log in !"
+    update_success: "Profile updated"
+    delete_success: "Delete success"
   error:
     user_not_found: "Not found user !"
     signup_failure: "Sign up unsuccessful !"
     signin_failure: "Invalid email/password combination"
+    delete_failed: "Delete failed!"

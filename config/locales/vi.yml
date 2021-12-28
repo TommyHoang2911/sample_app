@@ -43,13 +43,15 @@ vi:
       field_pass: "Mật khẩu"
       login: "Đăng nhập"
       signup: "Đăng ký ngay !"
-      new_user: "Bạn có muốn đăng ký?"
+      new_user: "Bạn chưa có tài khoản ?"
       notice_remember_me: "Lưu phiên đăng nhập của bạn"
   shared:
     error_messages:
       form_contain: "Form đăng ký xuất hiện "
       error: "lỗi"
   users:
+    index:
+      all_users: "Danh sách người dùng"
     new:
       signup: "Đăng ký"
       description_html: "<p>Đây là trang đăng ký cho người mới.</p>"
@@ -58,9 +60,25 @@ vi:
       field_email: "Email"
       field_pass: "Mật khẩu"
       field_confirm: "Xác nhận mật khẩu"
+    edit:
+      edit_user: "Cập nhập"
+      update_profile: "Cập nhập hồ sơ"
+      field_name: "Tên của bạn"
+      field_email: "Email"
+      field_pass: "Mật khẩu"
+      field_confirm: "Xác nhận mật khẩu"
+      ava_change: "Thay đổi avatar"
+      save_change: "Lưu thay đổi"
+    user:
+      delete: "Xóa"
+      is_sure: "Bạn muốn xóa người dùng này ?"
   notice:
     welcome: "Chào mừng đến với Sample App"
+    please_log_in: "Vui lòng đăng nhập !"
+    update_success: "Cập nhập thành công"
+    delete_success: "Xóa thành công"
   error:
     user_not_found: "Không tìm thấy thông tin !"
     signup_failure: "Đăng ký không thành công !"
     signin_failure: "Đăng nhập không thành công !"
+    delete_failed: "Xóa không thành công!"
