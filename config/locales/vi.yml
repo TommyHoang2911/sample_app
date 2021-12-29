@@ -5,6 +5,7 @@ vi:
   vietnamese: "Tiếng Việt"
   english: "Tiếng Anh"
   account_activation: "Kích hoạt tài khoản"
+  password_reset: "Đặt lại mật khẩu"
   static_pages:
     home:
       name: "Trang chủ"
@@ -38,6 +39,16 @@ vi:
       contact: "Liên hệ"
       news: "Tin tức"
       author_html: "<a href=\"https://www.railstutorial.org/\">Ruby on Rails Tutorial</a> by <a href=\"https://www.michaelhartl.com/\">Michael Hartl</a>"
+  password_resets:
+    new:
+      title: "Quên mật khẩu"
+      field_email: "Email"
+      submit: "Xác nhận"
+    edit:
+      title: "Quên mật khẩu"
+      field_pass: "Mật khẩu"
+      field_confirm: "Xác nhận mật khẩu"
+      update_pass: "Cập nhập mật khẩu"
   sessions:
     new:
       field_email: "Email"
@@ -46,6 +57,7 @@ vi:
       signup: "Đăng ký ngay !"
       new_user: "Bạn chưa có tài khoản ?"
       notice_remember_me: "Lưu phiên đăng nhập của bạn"
+      forgot_password: "(Quên mật khẩu)"
   shared:
     error_messages:
       form_contain: "Form đăng ký xuất hiện "
@@ -55,6 +67,11 @@ vi:
       greeting: "Xin chào"
       description_activate_html: "<p>Chào mừng đến với Sample App! Nhấp vào link bên dưới để kích hoạt tài khoản:</p>"
       activate: "Kích hoạt"
+    password_reset:
+      title: "Đặt lại mật khẩu"
+      description_reset_html: "<p>Nhấp vào link bên dưới để đặt lại mật khẩu:</p>"
+      expire_html: "<p>Đường dẫn này sẽ hết hạn trong 2 tiếng.</p>"
+      notice_html: "<p>Nếu bạn không yêu cầu đổi mật khẩu, hãy bỏ qua email này để hủy bỏ thay đổi.</p>"
   users:
     index:
       all_users: "Danh sách người dùng"
@@ -85,6 +102,8 @@ vi:
     update_success: "Cập nhập thành công"
     delete_success: "Xóa thành công"
     account_activated: "Tài khoản đã được kích hoạt!"
+    send_email_instructions: "Hướng dẫn thay đổi mật khẩu đã gửi đến Mail của bạn."
+    update_pass_success: "Thay đổi mật khẩu thành công"
   error:
     user_not_found: "Không tìm thấy thông tin !"
     signup_failure: "Đăng ký không thành công !"
@@ -93,3 +112,6 @@ vi:
     unable_send_email: "Không gửi được email"
     invalid_link_active: "Đường dẫn kích hoạt không hợp lệ!"
     account_unactive: "Tài khoản chưa được kích hoạt. Vui lòng kiểm tra email."
+    not_found_email: "Địa chỉ email không được tìm thấy !"
+    cannot_empty: "Không được để trống"
+    link_expired: "Link thay đổi mật khẩu đã hết hạn"

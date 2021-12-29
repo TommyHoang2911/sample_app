@@ -12,3 +12,5 @@ length:
   digit_255: 255
 user:
   ava_size_default: 80
+time:
+  expire_mail_reset_pass: 2
