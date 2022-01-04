@@ -5,6 +5,7 @@ en:
   vietnamese: "Vietnamese"
   english: "English"
   account_activation: "Account activation"
+  password_reset: "Password reset"
   static_pages:
     home:
       name: "Home"
@@ -38,14 +39,25 @@ en:
       contact: "Contact"
       news: "News"
       author_html: "<a href=\"https://www.railstutorial.org/\">Ruby on Rails Tutorial</a> by <a href=\"https://www.michaelhartl.com/\">Michael Hartl</a>"
+  password_resets:
+    new:
+      title: "Forgot password"
+      field_email: "Email"
+      submit: "Submit"
+    edit:
+      title: "Forgot password"
+      field_pass: "Password"
+      field_confirm: "Confirmation"
+      update_pass: "Update password"
   sessions:
     new:
       field_email: "Email"
-      field_pass: "Password"
+      field_pass: "New password"
       login: "Login"
       signup: "Sign up now!"
       new_user: "New user ? "
       notice_remember_me: "Remember me on this computer"
+      forgot_password: "(Forgot password)"
   shared:
     error_messages:
       form_contain: "The form contains "
@@ -55,6 +67,11 @@ en:
       greeting: "Hi"
       description_activate_html: "<p>Welcome to the Sample App! Click on the link below to activate your account:</p>"
       activate: "Activate"
+    password_reset:
+      title: "Reset password"
+      description_reset_html: "<p>To reset your password click the link below:</p>"
+      expire_html: "<p>This link will expire in two hours.</p>"
+      notice_html: "<p>If you did not request your password to be reset, please ignore this email and your password will stay as it is.</p>"
   users:
     index:
       all_users: "All users"
@@ -85,6 +102,8 @@ en:
     update_success: "Profile updated"
     delete_success: "Delete success"
     account_activated: "Account activated!"
+    send_email_instructions: "Email sent with password reset instructions."
+    update_pass_success: "Password updated success"
   error:
     user_not_found: "Not found user !"
     signup_failure: "Sign up unsuccessful !"
@@ -93,3 +112,6 @@ en:
     unable_send_email: "Cannot send email"
     invalid_link_active: "Invalid link!"
     account_unactive: "Account not activated. Check your email for the activation link."
+    not_found_email: "Email address not found !"
+    cannot_empty: "Can't be empty"
+    link_expired: "Password reset has expired."
